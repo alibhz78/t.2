@@ -55,7 +55,7 @@ margin-left: .5rem;
 
 }
 .firstname{
-    font-size: 13px;
+    font-size: 11px;
     color:#CECFD4;
     margin-bottom: 2px;
 
@@ -97,6 +97,7 @@ margin-left: .5rem;
 .div-normal{
     font-size: 13px;
     color: black;
+    margin-top: 5px;
 }
 .row-circle {
     align-items: center;
