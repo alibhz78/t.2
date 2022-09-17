@@ -1,0 +1,285 @@
+@font-face {
+    font-family:Vazir ;
+    src: url("../fontvazir/Vazir.ttf");
+}
+html{
+    font-family: Vazir;
+}
+.flex{
+    display: flex;
+}
+@media  (min-width:320px) and (max-width:450px)  {
+    .main{
+        margin-top: 10px;
+    width:100%;
+    height: 100vh;
+}
+.header{
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00CCFF;
+    
+}
+.div-logo{
+    align-items: center;
+}
+.i-logo{
+    font-size: 3rem;
+}
+.CRStrip{
+font-size: .7rem;
+margin-left: .5rem;
+}
+.div-grandnumber{
+    align-items: center;
+}
+.div-number{
+    font-size: .8rem;
+    margin-right:.5rem;
+}
+.name-navbr{
+    width: 90%;
+    margin: auto;
+    background-color: #F5F6FB;
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(158, 157, 157);
+
+}
+.firstname{
+    font-size: 13px;
+    color:#CECFD4;
+    margin-bottom: 2px;
+
+}
+.div-main{
+    align-items: center;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: #F5F6FB;
+    box-shadow: 0px 0px 10px 0px rgb(158, 157, 157);
+
+
+}
+.row{
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 5px;
+
+
+}
+.row-resp{
+    flex-direction: column;
+}
+
+   .div-date{
+    margin-bottom: 5px;
+    font-size: 12px;
+    color:#5d646a;
+}
+.span1{
+    font-size: 13px;
+    color: #979ca0;
+}
+.div-normal{
+    font-size: 13px;
+    color: black;
+}
+.row-circle {
+    align-items: center;
+    margin-bottom: 20px;
+}
+ 
+.circle{
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: #d9d9d9;
+    border-radius: 100%;
+}
+.pedar-circle{
+    align-items: center;
+    margin-right: 18px;
+}
+.div-width{
+    width: 30%;
+}
+.div-width-resp{
+    width: 100%;
+    margin-top: 10px;
+}
+.li-1{
+    margin-bottom: 20px;
+
+}
+.div-payed{
+    flex-direction: column;
+    display: flex;
+}
+.payed{
+    color: #4cd686;
+    border: 1px solid #4cd686;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    
+
+}
+.stop{font-size: 10px;}
+.div-bg-blue{
+    background-color: #cdf5ff;
+    border-radius: 15px;
+    width: 100%;
+}
+
+}
+@media  (min-width:450px)  {
+.main{
+    padding: 10px;
+    width:100%;
+    height: 100vh;
+}
+.header{
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    color: white;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00CCFF;
+    
+}
+.div-logo{
+    align-items: center;
+}
+.i-logo{
+    font-size: 5rem;
+}
+.CRStrip{
+font-size: 1rem;
+margin-left: 1rem;
+}
+.div-grandnumber{
+    align-items: center;
+}
+.div-number{
+    font-size: 1rem;
+    margin-right:.5rem;
+}
+.i-phone{
+    font-size: 1.5rem;
+}
+.name-navbr{
+    width: 90%;
+    margin: auto;
+    background-color: #f4f5f9;
+    border-radius: 15px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(158, 157, 157);
+}
+.firstname{
+    font-size: .8rem;
+    color:#5d646a;
+    margin-bottom: 5px;
+
+}
+.div-main{
+    align-items: center;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: #F5F6FB;
+    box-shadow: 0px 0px 10px 0px rgb(158, 157, 157);
+
+
+}
+.row{
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 15px;
+
+}
+.row-0 {
+    margin-bottom: 3rem;
+}
+
+.name2{
+    font-size: 15px;
+}
+
+   .div-date{
+    font-size: 12px;
+    color:#5d646a;
+}
+.span1{
+    font-size: .9rem;
+    color: #979ca0;
+}
+.div-normal{
+    font-size: 1rem;
+    color: black;
+}
+.row-circle {
+    align-items: center;
+    margin-bottom: 20px;
+}
+ 
+.circle{
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: #d9d9d9;
+    border-radius: 100%;
+}
+.pedar-circle{
+    align-items: center;
+    margin-right: 18px;
+}
+.div-width{
+    width: 35%;
+    margin-right: 5px;
+}
+.li-1{
+    margin-bottom: 20px;
+
+
+}
+.div-date{
+    margin-top: .5rem;
+}
+.payed{
+    color: #4cd686;
+    border: 1px solid #4cd686;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.div-payed{
+    display: flex;
+}
+.div-bg-blue{
+    background-color: #cdf5ff;
+    border-radius: 15px;
+}
+}
